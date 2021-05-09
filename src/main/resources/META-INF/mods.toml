@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[36"
+license = "All rights Reserved"
+
+[[mods]]
+modId = "tempmod"
+version = "${file.jarVersion}"
+displayName = "tempmod"
+logoFile = "TempLogo.png"        # optional, Just rename it to SpearLogo.png
+credits = ""                     # optional
+aithors = "Livid | SadBo1"
+description = '''
+    Very basic mod just to learn some items
+'''
+
+[[dependencies.tempmod]]      # Dependency if needed
+ModId = "Forge"               # Mandatory
+mandatory = true              # Mandatory
+versionRage = "[36,)"         # Mandatory
+ordering = "NONE"             # BEFORE | AFTER | NONE
+side = "BOTH"                 # Client | Server | Both
+
+[[dependencies.tempmod]]
+ModId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,1.17)"
+ordering = "NONE"
+side = "BOTH"

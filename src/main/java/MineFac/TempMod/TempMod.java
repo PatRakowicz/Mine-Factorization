@@ -1,4 +1,4 @@
-package Template;
+package MineFac.TempMod;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -20,7 +20,7 @@ import java.net.URL;
 import java.util.Enumeration;
 import java.util.stream.Collectors;
 
-// The value here should match an entry in the META-INF/Template.toml file
+// The value here should match an entry in the META-INF/mods.toml file
 @Mod("tempmod")
 public class TempMod
 {
