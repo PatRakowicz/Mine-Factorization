@@ -1,19 +1,18 @@
-
 # mod.toml Template
 
-modLoader="javafml"
-loaderVersion="[36"
-license="All rights Reserved"
+modLoader = "javafml"
+loaderVersion = "[36"
+license = "All rights Reserved"
 
 [[mods]]
 
-modId="SpearTierOne"
-version="${file.jarVersion}"
-displayName="Spears"
-logoFile="SpearLogo.png"        # optional, Just rename it to SpearLogo.png
-credits="" #Optional
-aithors="Livid | SadBo1"
-description='''
+modId = "SpearTeirOne"
+version = "${file.jarVersion}"
+displayName = "Spears"
+logoFile = "SpearLogo.png"        # optional, Just rename it to SpearLogo.png
+credits = "" #Optional
+aithors = "Livid | SadBo1"
+description = '''
     Just a spear mod and im trying to create a basic item to
     see what it takes to learn and teach....
 '''
