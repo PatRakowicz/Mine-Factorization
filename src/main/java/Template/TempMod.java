@@ -21,15 +21,15 @@ import java.util.Enumeration;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/Template.toml file
-@Mod("examplemod")
-public class ExampleMod
+@Mod("tempmod")
+public class TempMod
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public ExampleMod() throws IOException {
+    public TempMod() throws IOException {
         String resourceName = "greeting.txt";
-        ClassLoader cl = ExampleMod.class.getClassLoader();
+        ClassLoader cl = TempMod.class.getClassLoader();
         System.out.println(cl.getResource(resourceName));
         Enumeration<URL> resources = cl.getResources(resourceName);
         System.out.println(resources);
@@ -67,7 +67,7 @@ public class ExampleMod
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
         // some example code to dispatch IMC to another mod
-        InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+        InterModComms.sendTo("tempmod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
     private void processIMC(final InterModProcessEvent event)

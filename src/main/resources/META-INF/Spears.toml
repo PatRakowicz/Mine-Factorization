@@ -6,17 +6,17 @@ license = "All rights Reserved"
 
 [[mods]]
 
-modId = "SpearTeirOne"
+modId = "Spears"
 version = "${file.jarVersion}"
 displayName = "Spears"
 logoFile = "SpearLogo.png"        # optional, Just rename it to SpearLogo.png
-credits = "" #Optional
+credits = ""                      #Optional
 aithors = "Livid | SadBo1"
 description = '''
     Just a spear mod and im trying to create a basic item to
     see what it takes to learn and teach....
 '''
-# [[dependencies.Spears]]         # Dependency if needed
+# [[dependencies.Spears]]        # Dependency if needed
 #    ModId="Forge"               # Mandatory
 #    mandatory=true              # Mandatory
 #    versionRage="[36,)"         # Mandatory
