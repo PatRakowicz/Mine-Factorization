@@ -6,9 +6,11 @@
 ### Start
 - [ ] Get all JDKs working, and all the required packages to get things moving
     - [X] JDK Installed, base running package.
-    - [ ] Basic Mod Up and running
-    - [ ] Both Me and brandon are on board with how things work
+    - [X] Create Mod .jar with gradle.
+    - [ ] Both of us know how things work.
 
-### |
+### Start on creating items for the mod
+- [ ] Creation of multiple items
+    - [ ] Spears
 ### |
 ### |

@@ -55,9 +55,6 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                Spears {
-                    source sourceSets.main
-                }
                 tempmod {
                     source sourceSets.main
                 }
@@ -80,9 +77,6 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                Spears {
-                    source sourceSets.main
-                }
                 tempmod {
                     source sourceSets.main
                 }
@@ -106,12 +100,8 @@ minecraft {
 
             // Specify the archiveBaisName for data generation, where to output the resulting resource, and where to look for existing resources.
             args '--mod', 'tempmod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-            args '--mod', 'Spears', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                Spears {
-                    source sourceSets.main
-                }
                 tempmod {
                     source sourceSets.main
                 }
