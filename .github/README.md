@@ -9,7 +9,7 @@
     - [X] Create Mod .jar with gradle.
     - [ ] Both of us know how things work.
 
-### Start on creating items for the mod
+### Start on creating items for the mod, [Doc For Forge](https://mcforge.readthedocs.io/en/latest/gettingstarted/structuring/)
 - [ ] Creation of multiple items
     - [ ] Spears
 ### |
