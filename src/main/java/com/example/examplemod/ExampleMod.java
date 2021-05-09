@@ -15,7 +15,10 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+import com.google.common.collect.Iterators;
+import java.io.IOException;
+import java.net.URL;
+import java.util.Enumeration;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -25,7 +28,17 @@ public class ExampleMod
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public ExampleMod() {
+    public ExampleMod() throws IOException {
+        String resourceName = "greeting.txt";
+        ClassLoader cl = ExampleMod.class.getClassLoader();
+        System.out.println(cl.getResource(resourceName));
+        Enumeration<URL> resources = cl.getResources(resourceName);
+        System.out.println(resources);
+        System.out.println(Iterators.toString(Iterators.forEnumeration(resources)));
+        if (!resources.hasMoreElements()) {
+            throw new AssertionError();
+        }
+
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
@@ -33,7 +46,8 @@ public class ExampleMod
         // Register the processIMC method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
         // Register the doClientStuff method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+
+        // FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -46,10 +60,10 @@ public class ExampleMod
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
-    private void doClientStuff(final FMLClientSetupEvent event) {
+/*    private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
-        LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().options);
-    }
+        LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
+    }*/
 
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
