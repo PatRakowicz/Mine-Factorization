@@ -4,10 +4,10 @@
 ## TODO
 
 ### Start
-- [] Get all JDKs working, and all the required packages to get things moving
-    - [] JDK Installed, base running package.
-    - [] Basic Mod Up and running
-    - [] Both Me and branodn are on board with how things work
+- [ ] Get all JDKs working, and all the required packages to get things moving
+    - [ ] JDK Installed, base running package.
+    - [ ] Basic Mod Up and running
+    - [ ] Both Me and branodn are on board with how things work
 
 ### |
 ### |
