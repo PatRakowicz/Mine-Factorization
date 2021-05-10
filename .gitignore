@@ -5,6 +5,8 @@
 # folders
 build
 /.idea/
+/src/test/
+/run/
 
 # Log file
 *.log
