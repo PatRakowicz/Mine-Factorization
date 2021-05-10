@@ -3,15 +3,24 @@
 
 ## TODO
 
-### Start
+### Start | [1.14 Forge Docs](https://mcforge.readthedocs.io/en/1.14.x/)
 - [ ] Get all JDKs working, and all the required packages to get things moving
-    - [x] JDK Installed, base running package.
-    - [x] Working mod that boots on MC.
-    - [ ] Both of us know how things work.
+  - [x] JDK Installed, base running package.
+  - [x] Working mod that boots on MC.
+  - [ ] Both of us know how things work.
 
-### Start on creating items for the mod
-- [ ] Creation of an item
-    - [x] Simple item without any texture
-    - [x] Texture the item
-    - [x] Rename item and add subgroup for creative menu
-    - [ ] 
+### Start on creating items for the mod [Example Mod Doc](https://github.com/Cadiboo/Example-Mod/tree/7e282a2b922947fc3b650e0078d706313f4afe5a)
+- [x] Creation of an item/block
+  - [x] Simple item without any texture
+  - [x] Texture the item
+  - [x] Rename item and add subgroup for creative menu
+  - [x] Create A block
+  
+### Creation of init files
+- [x] Finished init Folder
+  - [x] ModBlocks
+  - [x] ModItems
+  - [x] ModItemGroups
+  - [x] ModEntityTypes
+  - [x] ModContainerTypes
+  - [x] ModTileEntityTypes

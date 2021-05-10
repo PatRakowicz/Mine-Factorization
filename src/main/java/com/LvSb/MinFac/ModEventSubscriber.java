@@ -1,6 +1,8 @@
 package com.LvSb.MinFac;
 
 import com.LvSb.MinFac.init.ModItemGroup;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
@@ -11,11 +13,19 @@ import net.minecraftforge.registries.IForgeRegistryEntry;
 @Mod.EventBusSubscriber (modid = Main.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventSubscriber {
 
-    // Custom item
+    // Custom Item
     @SubscribeEvent
     public static void onRegisterItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
                 setup(new Item(new Item.Properties().group(ModItemGroup.MOD_ITEM_GROUP)), "example_item")
+        );
+    }
+
+    // Custom Block
+    @SubscribeEvent
+    public static void onRegisterBlock(RegistryEvent.Register<Block> event) {
+        event.getRegistry().registerAll(
+                setup(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F)), "example_ore")
         );
     }
 
