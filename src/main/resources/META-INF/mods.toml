@@ -5,15 +5,15 @@ issueTrackerURL="http://"
 
 [[mods]] #mandatory
 
-modId="examplemod"
-version="${file.jarVersion}"
-displayName="Example Mod"
-updateJSONURL="http://myurl.me/"
-displayURL="http://example.com/"
-logoFile="examplemod.png"
+modId="minfac"
+version="${version}"
+displayName="Mine Factorization"
+updateJSONURL="http://"
+displayURL="http://"
+logoFile="MinFacLogo.png"
 authors=" Livid | SadBo1 "
 description='''
-Basic Block
+Basic Block in this run
 '''
 
 [[dependencies.examplemod]] #optional
