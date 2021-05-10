@@ -10,7 +10,8 @@
     - [ ] Both of us know how things work.
 
 ### Start on creating items for the mod
-- [ ] Creation and item
+- [ ] Creation of an item
     - [x] Simple item without any texture
-    - [ ] Texture the item
+    - [x] Texture the item
+    - [x] Rename item and add subgroup for creative menu
     - [ ] 

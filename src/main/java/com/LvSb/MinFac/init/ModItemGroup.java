@@ -3,7 +3,6 @@ package com.LvSb.MinFac.init;
 import com.LvSb.MinFac.Main;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 
 import java.util.function.Supplier;
 
