@@ -6,7 +6,7 @@
 ### Start
 - [ ] Get all JDKs working, and all the required packages to get things moving
     - [X] JDK Installed, base running package.
-    - [X] Create Mod .jar with gradle.
+    - [X] Create BlockMod .jar with gradle.
     - [ ] Both of us know how things work.
 
 ### Start on creating items for the mod, [Doc For Forge](https://mcforge.readthedocs.io/en/latest/gettingstarted/structuring/)
