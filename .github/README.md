@@ -5,10 +5,12 @@
 
 ### Start
 - [ ] Get all JDKs working, and all the required packages to get things moving
-    - [X] JDK Installed, base running package.
-    - [X] Working mod that boots on MC.
+    - [x] JDK Installed, base running package.
+    - [x] Working mod that boots on MC.
     - [ ] Both of us know how things work.
 
 ### Start on creating items for the mod
 - [ ] Creation and item
-    - [ ] Simple Block
+    - [x] Simple item without any texture
+    - [ ] Texture the item
+    - [ ] 
