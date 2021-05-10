@@ -24,4 +24,5 @@ public class ModBlocks {
     // Add Blocks Below | Use First as template
     public static final RegistryObject<Block> EXAMPLE_ORE = BLOCKS.register("example_ore", () ->
             new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F,3.0F)));
+
 }

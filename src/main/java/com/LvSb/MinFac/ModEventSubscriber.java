@@ -13,13 +13,6 @@ import net.minecraftforge.registries.IForgeRegistryEntry;
 @Mod.EventBusSubscriber (modid = Main.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventSubscriber {
 
-    // Custom Item
-    @SubscribeEvent
-    public static void onRegisterItems(RegistryEvent.Register<Item> event) {
-        event.getRegistry().registerAll(
-                setup(new Item(new Item.Properties().group(ModItemGroup.MOD_ITEM_GROUP)), "example_item")
-        );
-    }
 
     // Custom Block
     @SubscribeEvent
