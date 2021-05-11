@@ -1,7 +1,6 @@
 package com.LvSb.MinFac;
 
-import com.LvSb.MinFac.init.ModBlocks;
-import com.LvSb.MinFac.init.ModItems;
+import com.LvSb.MinFac.init.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
@@ -26,6 +25,10 @@ public final class Main {
         // Register Deferred Registries
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ModContainerTypes.CONTAINER_TYPES.register(modEventBus);
+        ModEntityTypes.ENTITY_TYPES.register(modEventBus);
+        ModTileEntityTypes.TILE_ENTITY_TYPES.register(modEventBus);
+
     }
 
 

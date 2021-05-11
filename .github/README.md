@@ -16,11 +16,22 @@
   - [x] Rename item and add subgroup for creative menu
   - [x] Create A block
   
-### Creation of init files
-- [x] Finished init Folder
+### Init Files
+- [x] All Inits done
   - [x] ModBlocks
   - [x] ModItems
   - [x] ModItemGroups
   - [x] ModEntityTypes
   - [x] ModContainerTypes
   - [x] ModTileEntityTypes
+  
+### Config Files
+- [ ] All Configs done
+  
+### Advanced Block Creation
+- [ ] Working Block w/ GUI (Modded Furnace)
+  - [ ] Creation of block
+  - [ ] Name/Texture block
+  - [ ] Placeable
+  - [ ] Working GUI
+  - [ ] 

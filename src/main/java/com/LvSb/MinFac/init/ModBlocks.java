@@ -17,7 +17,7 @@ import net.minecraftforge.registries.ForgeRegistries;
  * Note: This supports registry overrides.
  */
 
-public class ModBlocks {
+public final class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Main.MODID);
 
