@@ -32,7 +32,7 @@
 - [ ] Simple Usable Block (Custom Ore)
   - [x] Create block
   - [x] Name
-  - [ ] Texture
+  - [ ] [Texture](https://minecraft.fandom.com/wiki/Model#Simple_example:_2D_beds)
   - [x] Placeable
   - [ ] Byproduct
   - [ ] Use byproduct

@@ -1,7 +1,16 @@
 {
-  "variants": {
-    "": {
-      "model": "minfac:block/example_block"
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "minfac:block/example_block": "#down", "cullface": "down" },
+        "up":    { "minfac:block/example_block": "#up", "cullface": "up" },
+        "north": { "minfac:block/example_block": "#north", "cullface": "north" },
+        "south": { "minfac:block/example_block": "#south", "cullface": "south" },
+        "west":  { "minfac:block/example_block": "#west", "cullface": "west" },
+        "east":  { "minfac:block/example_block": "#east", "cullface": "east" }
+      }
     }
-  }
+  ]
 }
