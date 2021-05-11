@@ -23,15 +23,9 @@ public final class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Main.MODID);
 
-    public static final RegistryObject<Block> EXAMPLE_ORE = BLOCKS.register("example_ore",
+    public static final RegistryObject<Block> NEW_ORE = BLOCKS.register("new_ore",
             () -> new Block(Block.Properties.create(Material.ROCK)
                     .hardnessAndResistance(3.0F, 3.0F)
-            ));
-
-    public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block",
-            () -> new Block(Block.Properties.create(Material.IRON, MaterialColor.IRON)
-                    .hardnessAndResistance(5.0F, 6.0F)
-                    .sound(SoundType.METAL)
             ));
 
 }

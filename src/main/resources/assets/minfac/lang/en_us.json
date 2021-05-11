@@ -1,6 +1,6 @@
 {
   "itemGroup.minfac": "Mine Factorization",
-  "item.minfac.example_item": "Test Egg",
-  "block.minfac.example_block": "Test Block",
-  "block.minfac.example_ore": "Broke Ore"
+  "item.minfac.eggtwo": "Test Egg",
+  "block.minfac.new_block": "Test Block",
+  "block.minfac.new_ore": "New Ore"
 }

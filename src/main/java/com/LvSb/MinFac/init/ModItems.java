@@ -21,8 +21,10 @@ public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Main.MODID);
 
-    public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () ->
-            new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)));
+    public static final RegistryObject<Item> EGGTWO = ITEMS.register("eggtwo",
+            () -> new Item(new Item.Properties()
+                    .group(ModItemGroups.MOD_ITEM_GROUP)
+            ));
 
 
 }
