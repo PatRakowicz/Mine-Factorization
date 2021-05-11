@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "layer0": "minfac:block/example_ore"
+    "all": "minfac:block/example_block"
   }
 }

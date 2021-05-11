@@ -29,9 +29,10 @@
 - [ ] All Configs done
   
 ### Advanced Block Creation
-- [ ] Working Block w/ GUI (Modded Furnace)
-  - [x] Creation of block
-  - [ ] Name/Texture block
-  - [ ] Placeable
-  - [ ] Working GUI
-  - [ ] |
+- [ ] Simple Usable Block (Custom Ore)
+  - [x] Create block
+  - [x] Name
+  - [ ] Texture
+  - [x] Placeable
+  - [ ] Byproduct
+  - [ ] Use byproduct

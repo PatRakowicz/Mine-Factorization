@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minfac:block/example_block"
+    }
+  }
+}
