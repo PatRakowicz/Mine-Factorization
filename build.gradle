@@ -20,7 +20,7 @@ archivesBaseName = 'MinFac'
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
 minecraft {
-
+    mappings = 'stable_nodoc_58'
     mappings channel: 'snapshot', version: '20190719-1.14.3'
 
     runs {
@@ -95,6 +95,7 @@ jar {
     }
 }
 
+/*
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
     from sourceSets.main.allSource
@@ -122,4 +123,4 @@ processResources {
     from(sourceSets.main.resources.srcDirs) {
         exclude 'META-INF/mods.toml'
     }
-}
+}*/
