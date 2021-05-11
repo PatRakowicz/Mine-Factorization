@@ -8,12 +8,13 @@ issueTrackerURL="http://"
 modId="minfac"
 version="${version}"
 displayName="Mine Factorization"
-updateJSONURL="http://"
-displayURL="http://"
+#updateJSONURL="http://"
+#displayURL="http://"
 logoFile="MinFacLogo.png"
 authors=" Livid | SadBo1 "
+#credits=""
 description='''
-Basic Block in this run
+Advanced Cultivation
 '''
 
 [[dependencies.minfac]] #optional
