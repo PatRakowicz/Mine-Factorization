@@ -16,23 +16,15 @@
   - [x] Rename item and add subgroup for creative menu
   - [x] Create A block
   
-### Init Files
-- [x] All Inits done
-  - [x] ModBlocks
-  - [x] ModItems
-  - [x] ModItemGroups
-  - [x] ModEntityTypes
-  - [x] ModContainerTypes
-  - [x] ModTileEntityTypes
-  
 ### Config Files
 - [ ] All Configs done
+  - [ ] Start working on Configs
   
 ### Advanced Block Creation
 - [ ] Simple Usable Block (Custom Ore)
   - [x] Create block
-  - [x] Name
-  - [ ] [Texture](https://minecraft.fandom.com/wiki/Model#Simple_example:_2D_beds)
-  - [x] Placeable
+  - [x] Name block
+  - [x] [Texture](https://minecraft.fandom.com/wiki/Model#Simple_example:_2D_beds)
+  - [x] Placeable/Item
   - [ ] Byproduct
   - [ ] Use byproduct

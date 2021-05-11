@@ -1,3 +1,5 @@
 {
-  "itemGroup.minfac": "Mine Factorization",
+  "itemgroup.minfac": "Mine Factorization",
+  "item.minfac.new_egg": "New Egg",
+  "block.minfac.new_block": "New Block"
 }
