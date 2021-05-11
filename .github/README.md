@@ -30,8 +30,8 @@
   
 ### Advanced Block Creation
 - [ ] Working Block w/ GUI (Modded Furnace)
-  - [ ] Creation of block
+  - [x] Creation of block
   - [ ] Name/Texture block
   - [ ] Placeable
   - [ ] Working GUI
-  - [ ] 
+  - [ ] |
