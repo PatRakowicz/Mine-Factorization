@@ -5,5 +5,5 @@ import net.minecraft.item.Item;
 public class ItemList {
 
     public static Item new_egg;
-    public static Item new_block;
+    public static Item hexamine_ore;
 }

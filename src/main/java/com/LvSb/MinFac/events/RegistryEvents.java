@@ -5,10 +5,10 @@ import com.LvSb.MinFac.init.ModItemGroup;
 import com.LvSb.MinFac.lists.BlockList;
 import com.LvSb.MinFac.lists.ItemList;
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -24,11 +24,10 @@ public class RegistryEvents {
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
-                ItemList.new_egg = new Item(new Item.Properties()
-                        .group(ModItemGroup.MOD_ITEM_GROUP))
+                ItemList.new_egg = new Item(new Item.Properties().group(ModItemGroup.MOD_ITEM_GROUP))
                         .setRegistryName(location("new_egg")),
 
-                ItemList.new_block = new BlockItem(BlockList.BLOCKS, new Item.Properties()
+                ItemList.hexamine_ore = new BlockItem(BlockList.BLOCKS, new Item.Properties()
                         .group(ModItemGroup.MOD_ITEM_GROUP))
                         .setRegistryName(BlockList.BLOCKS.getRegistryName())
         );
@@ -36,8 +35,10 @@ public class RegistryEvents {
 
     @SubscribeEvent
     public static void registerBlocks(final RegistryEvent.Register<Block> event) {
-        event.getRegistry().registerAll(
-                BlockList.BLOCKS = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.0F,1.0F)).setRegistryName("new_block")
+        event.getRegistry().registerAll(BlockList.BLOCKS = new Block(Block.Properties.create(Material.ROCK)
+                .sound(SoundType.STONE)
+                .hardnessAndResistance(1.0F, 1.0F))
+                .setRegistryName("hexamine_ore")
         );
     }
 
