@@ -17,13 +17,16 @@ public class BlockRegistry {
     public static final Logger LOGGER = Main.LOGGER;
     public static final String MOD_ID = Main.MOD_ID;
 
-    // This is to register the block
+    //register a block with events
     @SubscribeEvent
     public static void registerBlocks(final RegistryEvent.Register<Block> event) {
-        event.getRegistry().registerAll(BlockList.BLOCKS = new Block(Block.Properties.create(Material.ROCK)
-                .sound(SoundType.STONE)
-                .hardnessAndResistance(1.0F, 1.0F))
-                .setRegistryName("hexamine_ore")
+        event.getRegistry().registerAll(
+
+                //create new blocks here
+                BlockList.BLOCKS = new Block(Block.Properties.create(Material.ROCK)
+                        .sound(SoundType.STONE)
+                        .hardnessAndResistance(1.0F, 1.0F))
+                        .setRegistryName("hexamine_ore")
         );
     }
 

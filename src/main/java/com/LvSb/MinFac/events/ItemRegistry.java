@@ -22,9 +22,18 @@ public class ItemRegistry {
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
+
+                ItemList.creative_menu_list = new Item(new Item.Properties().group(ModItemGroup.MOD_ITEM_GROUP))
+                        .setRegistryName(location("creativeItemList")),
+
+                // Add Items
                 ItemList.new_egg = new Item(new Item.Properties().group(ModItemGroup.MOD_ITEM_GROUP))
                         .setRegistryName(location("new_egg")),
 
+                ItemList.hexamine = new Item(new Item.Properties().group(ModItemGroup.MOD_ITEM_GROUP))
+                        .setRegistryName(location("hexamine")),
+
+                //Add Block Item
                 ItemList.hexamine_ore = new BlockItem(BlockList.BLOCKS, new Item.Properties()
                         .group(ModItemGroup.MOD_ITEM_GROUP))
                         .setRegistryName(BlockList.BLOCKS.getRegistryName())
