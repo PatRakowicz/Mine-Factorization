@@ -9,8 +9,8 @@ import java.util.function.Supplier;
 
 public class ModItemGroup extends ItemGroup {
 
-    public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup(Main.MOD_ID,
-            () -> new ItemStack(ItemList.creative_menu_list));
+    public static final ItemGroup MINFAC_TAB = new ModItemGroup(Main.MOD_ID,
+            () -> new ItemStack(ItemList.CREATIVE_MENU_LIST.get()));
     //create constructor for the item group
     private final Supplier<ItemStack> iconSupplier;
 
