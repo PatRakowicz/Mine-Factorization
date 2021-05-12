@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "minfac:block/hexamine_ore" }
+    "": {
+      "model": "minfac:block/hexamine_ore"
+    }
   }
 }

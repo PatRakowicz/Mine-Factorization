@@ -5,7 +5,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "mincraft:item",
+          "type": "minecraft:item",
           "name": "minfac:hexamine_ore"
         }
       ],

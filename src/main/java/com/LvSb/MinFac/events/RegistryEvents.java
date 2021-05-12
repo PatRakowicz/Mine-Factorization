@@ -21,6 +21,7 @@ public class RegistryEvents {
     public static final Logger LOGGER = Main.LOGGER;
     public static final String MOD_ID = Main.MOD_ID;
 
+    //Register the items that are in ItemList and BlockList
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
@@ -33,6 +34,7 @@ public class RegistryEvents {
         );
     }
 
+    // This is to register the block
     @SubscribeEvent
     public static void registerBlocks(final RegistryEvent.Register<Block> event) {
         event.getRegistry().registerAll(BlockList.BLOCKS = new Block(Block.Properties.create(Material.ROCK)
