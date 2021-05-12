@@ -6,4 +6,5 @@ public class ItemList {
 
     public static Item new_egg;
     public static Item hexamine_ore;
+    public static Item hexamine;
 }

@@ -12,7 +12,8 @@ public class ModItemGroup extends ItemGroup {
     //create constructor for the item group
     private final Supplier<ItemStack> iconSupplier;
 
-    public ModItemGroup(final String name, final Supplier<ItemStack> iconSupplier) {
+    //switch to public if breaks
+    private ModItemGroup(final String name, final Supplier<ItemStack> iconSupplier) {
         super(name);
         this.iconSupplier = iconSupplier;
     }
