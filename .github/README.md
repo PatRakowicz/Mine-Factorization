@@ -26,5 +26,5 @@
   - [x] Name block
   - [x] [Texture](https://minecraft.fandom.com/wiki/Model#Simple_example:_2D_beds)
   - [x] Placeable/Item
-  - [ ] Byproduct
+  - [x] Byproduct
   - [ ] Use byproduct
