@@ -1,6 +1,7 @@
 package com.LvSb.MinFac.lists;
 
 import com.LvSb.MinFac.Main;
+import com.LvSb.MinFac.init.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
