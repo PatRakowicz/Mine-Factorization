@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minfac:hexamine"
+  },
+  "result": "minfac:refined_hexamite",
+  "experience": 0.6,
+  "cookingtime": 300
+}
