@@ -21,5 +21,4 @@ public class ItemList {
     public static final RegistryObject<Item> HEXAMINE_FUEL = ITEMS.register("hexamine_fuel",
             () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
 
-
 }
