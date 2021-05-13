@@ -2,6 +2,7 @@ package com.LvSb.MinFac.lists;
 
 import com.LvSb.MinFac.Main;
 import com.LvSb.MinFac.init.ModItemGroup;
+import com.LvSb.MinFac.objects.items.HexamineFuel;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,5 +21,8 @@ public class ItemList {
 
     public static final RegistryObject<Item> HEXAMINE_FUEL = ITEMS.register("hexamine_fuel",
             () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB).maxStackSize(16)));
+
+    public static final RegistryObject<Item> REFINED_HEXAMITE = ITEMS.register("refined_hexamite",
+            () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
 
 }
