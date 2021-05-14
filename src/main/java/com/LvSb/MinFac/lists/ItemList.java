@@ -2,7 +2,6 @@ package com.LvSb.MinFac.lists;
 
 import com.LvSb.MinFac.Main;
 import com.LvSb.MinFac.init.ModItemGroup;
-import com.LvSb.MinFac.objects.items.hexamineFuelItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
