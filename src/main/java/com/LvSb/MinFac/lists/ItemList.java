@@ -13,7 +13,7 @@ public class ItemList {
 
 
     public static final RegistryObject<Item> CREATIVE_MENU_LIST = ITEMS.register("creative_menu_list",
-            () -> null);
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> NEW_EGG = ITEMS.register("new_egg",
             () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
