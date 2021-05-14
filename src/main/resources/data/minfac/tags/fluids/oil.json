@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minfac:block/oil",
+    "minfac:oil",
     "minfac:flowing_oil"
   ]
 }
