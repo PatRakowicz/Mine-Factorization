@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "minfac:hexamine"
   },
-  "result": "minfac:refined_hexamite",
+  "result": "minfac:hexamite",
   "experience": 0.6,
   "cookingtime": 300
 }
