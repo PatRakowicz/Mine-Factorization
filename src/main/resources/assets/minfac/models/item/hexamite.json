@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "minfac:item/refined_hexamite"
+    "layer0": "minfac:item/hexamite"
   }
 }

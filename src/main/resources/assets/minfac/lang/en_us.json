@@ -8,8 +8,8 @@
   "item.minfac.manure": "Manure",
 
 
-  "item.minfac.oil": "Oil",
-  "block.minfac.oil_bucket": "Oil Bucket",
+  "item.minfac.oil_bucket": "Oil Bucket",
+  "block.minfac.oil": "Oil",
 
 
   "block.minfac.hexamine_ore": "Hexamine ore"
