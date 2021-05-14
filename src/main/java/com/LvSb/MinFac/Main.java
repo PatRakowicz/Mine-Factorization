@@ -3,6 +3,7 @@ package com.LvSb.MinFac;
 import com.LvSb.MinFac.init.ModItemGroup;
 import com.LvSb.MinFac.lists.BlockList;
 import com.LvSb.MinFac.lists.ItemList;
+import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -36,7 +37,6 @@ public class Main {
 
         ItemList.ITEMS.register(modEventBus);
         BlockList.BLOCKS.register(modEventBus);
-        BlockList.NO_ITEM_BLOCK.register(modEventBus);
     }
 
     //Register the block items
@@ -44,12 +44,13 @@ public class Main {
     public static void createBlockItems(final RegistryEvent.Register<Item> event) {
         final IForgeRegistry<Item> registry = event.getRegistry();
 
-        BlockList.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
+        for (RegistryObject<Block> blockRegistryObject : BlockList.BLOCKS.getEntries()) {
+            Block block = blockRegistryObject.get();
             final Item.Properties properties = new Item.Properties().group(ModItemGroup.MINFAC_TAB);
             final BlockItem blockItem = new BlockItem(block, properties);
             blockItem.setRegistryName(block.getRegistryName());
             registry.register(blockItem);
-        });
+        }
     }
 
     private void setup(final FMLCommonSetupEvent event) {

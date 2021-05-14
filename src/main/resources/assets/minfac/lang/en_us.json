@@ -4,8 +4,12 @@
 
   "item.minfac.new_egg": "New Egg",
   "item.minfac.hexamine": "Hexamine",
-  "item.minfac.hexamite": "Refined Hexamite",
+  "item.minfac.hexamite": "Hexamite",
   "item.minfac.manure": "Manure",
+
+
+  "item.minfac.oil": "Oil",
+  "block.minfac.oil_bucket": "Oil Bucket",
 
 
   "block.minfac.hexamine_ore": "Hexamine ore"
