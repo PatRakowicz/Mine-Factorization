@@ -25,4 +25,7 @@ public class ItemList {
     public static final RegistryObject<Item> REFINED_HEXAMITE = ITEMS.register("refined_hexamite",
             () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
 
+    public static final RegistryObject<Item> MANURE = ITEMS.register("manure",
+            () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
+
 }
