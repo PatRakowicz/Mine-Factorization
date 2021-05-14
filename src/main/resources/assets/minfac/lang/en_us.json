@@ -1,7 +1,12 @@
 {
   "itemGroup.minfac": "Mine Factorization",
 
+
   "item.minfac.new_egg": "New Egg",
-  "block.minfac.hexamine_ore": "Hexamine ore",
-  "item.minfac.hexamine_fuel": "Hexamine"
+  "item.minfac.hexamine": "Hexamine",
+  "item.minfac.refined_hexamite": "Refined Hexamite",
+  "item.minfac.manure": "Manure",
+
+
+  "block.minfac.hexamine_ore": "Hexamine ore"
 }
