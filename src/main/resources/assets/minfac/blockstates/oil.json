@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "minfac:block/oil" }
+        "": { "model": "minfac:block/oil_still" }
     }
 }
