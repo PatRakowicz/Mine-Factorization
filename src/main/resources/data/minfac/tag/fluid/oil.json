@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minfac:OIL",
+    "minfac:oil",
     "minfac:flowing_oil"
   ]
 }
