@@ -1,0 +1,30 @@
+modLoader="javafml" #mandatory
+loaderVersion="[30,)" #mandatory (26 is current forge version)
+issueTrackerURL="https://github.com/lividsubset3/Mine-Factorization/issues" #optional
+
+[[mods]] #mandatory
+modId="minfac" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Mine Factorization" #mandatory
+#updateJSONURL="" #optional
+displayURL="https://github.com/lividsubset3/Mine-Factorization" #optional
+logoFile="minfaclogo.png" #optional
+#credits="" #optional
+authors="Lividsubset3 | SadBo1" #optional
+description='''
+Mine Factorization, Just asortments of items that we wanted to create. Nothing to special and dedicated on this pack.
+'''
+
+[[dependencies.mytutorial]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[30,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mytutorial]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.1,)"
+    ordering="NONE"
+    side="BOTH"
