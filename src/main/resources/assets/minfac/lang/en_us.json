@@ -1,0 +1,16 @@
+{
+  "itemGroup.minfac": "Mine Factorization",
+
+
+  "item.minfac.new_egg": "New Egg",
+  "item.minfac.hexamine": "Hexamine",
+  "item.minfac.hexamite": "Hexamite",
+  "item.minfac.manure": "Manure",
+
+
+  "item.minfac.oil_bucket": "Oil Bucket",
+  "block.minfac.oil": "Oil",
+
+
+  "block.minfac.hexamine_ore": "Hexamine ore"
+}

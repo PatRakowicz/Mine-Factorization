@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[28,)"
+issueTrackerURL = "http://"
+
+[[mods]] #mandatory
+
+modId = "minfac"
+version = "${version}"
+displayName = "Mine Factorization"
+#updateJSONURL="http://"
+#displayURL="http://"
+logoFile = "MinFacLogo.png"
+authors = " Livid | SadBo1 "
+#credits=""
+description = '''
+Advanced Cultivation
+'''
+
+[[dependencies.minfac]] #optional
+modId = "forge"
+mandatory = true
+versionRange = "[28,)"
+ordering = "NONE"         # BEFORE | AFTER | NONE
+side = "BOTH"             # BOTH | CLIENT | SERVER
+
+[[dependencies.minfac]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.14.4]"
+ordering = "NONE"
+side = "BOTH"
