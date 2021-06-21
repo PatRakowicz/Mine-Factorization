@@ -1,4 +1,4 @@
-package com.LvSb.MinFac.objects.items;
+package com.LvSb.MinFac.objects.item;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

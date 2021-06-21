@@ -6,6 +6,7 @@
 #### Resources
 [1.14 Forge Docs](https://mcforge.readthedocs.io/en/1.14.x/) |
 [Texture](https://minecraft.fandom.com/wiki/Model#Simple_example:_2D_beds) |
+[1.14 Code Examples](https://github.com/TheGreyGhost/MinecraftByExample/tree/1-14-4-partial)
 
 ### Bugs to fix
 - [ ] Oil Fix (unable to place)

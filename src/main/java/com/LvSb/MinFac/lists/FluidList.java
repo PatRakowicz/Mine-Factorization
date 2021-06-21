@@ -1,7 +1,7 @@
 package com.LvSb.MinFac.lists;
 
 import com.LvSb.MinFac.init.RegistryEvents;
-import com.LvSb.MinFac.objects.fluids.FluidOil;
+import com.LvSb.MinFac.objects.fluid.FluidOil;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.tags.Tag;
