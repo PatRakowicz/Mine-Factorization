@@ -3,8 +3,9 @@ package com.LvSb.MinFac.objects.item;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class hexamineFuelItem extends Item {
-    public hexamineFuelItem(Properties properties) {
+public class HexamineFuel extends Item {
+
+    public HexamineFuel(Properties properties) {
         super(properties);
     }
 

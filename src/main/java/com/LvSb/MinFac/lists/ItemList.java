@@ -2,6 +2,7 @@ package com.LvSb.MinFac.lists;
 
 import com.LvSb.MinFac.Main;
 import com.LvSb.MinFac.init.ModItemGroup;
+import com.LvSb.MinFac.objects.item.HexamineFuel;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,7 +23,7 @@ public class ItemList {
             () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
 
     public static final RegistryObject<Item> HEXAMINE = ITEMS.register("hexamine",
-            () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
+            () -> new HexamineFuel (new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
 
     public static final RegistryObject<Item> MANURE = ITEMS.register("manure",
             () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
