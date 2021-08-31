@@ -1,4 +1,4 @@
-package com.LvSb.MinFac.objects.fluids;
+package com.LvSb.MinFac.objects.fluid;
 
 import com.LvSb.MinFac.init.RegistryEvents;
 import com.LvSb.MinFac.lists.BlockList;
