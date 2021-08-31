@@ -14,21 +14,18 @@
   > This will allow the tool you are holding to have a random upgrade on it. TBD, if there is max level on tool.
   - Lucky Ring
   > Ring will have a luck side of things. Most likely will just be luck on a ring. Might have tiers of luck.
-  - 
-
-### Bugs to fix
-- [ ] Oil Fix (unable to place)
   
-### Config Files
-- [ ] All Configs done
-  - [ ] Start working on Configs
-  
-### Custom Machine (For now, Furnace)
-- [ ] Working Custom Machine
-  - [ ] Figuring out how it works
-  - [ ] Creating Custom Furnace
-    - [ ] Research
-    - [ ] Creation
-    - [ ] Debugging
-  - [ ] Create a furnace that uses hexamine
+### Ring Implementation
+  - [ ] Ender Ring
+    - [ ] End Jem
+      - [x] Texture
+  - [ ] Wither Ring
+    - [ ] Wither Jem
+      - [x] Texture
+  - [ ] Elder dragon Ring
+    - [ ] Elder Gem
+      - [ ] Texture
+  - [ ] Crafting
+    - [ ] Gold Ring
+    - [ ] Gem + Ring
   
