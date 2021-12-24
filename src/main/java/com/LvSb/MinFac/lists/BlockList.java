@@ -18,6 +18,4 @@ public class BlockList {
                     .sound(SoundType.STONE)
                     .hardnessAndResistance(1.0F, 1.0F)));
 
-    public static Block oil;
-
 }

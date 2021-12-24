@@ -27,7 +27,4 @@ public class ItemList {
 
     public static final RegistryObject<Item> MANURE = ITEMS.register("manure",
             () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
-
-    public static final RegistryObject<Item> OIL_BUCKET = ITEMS.register("oil_bucket",
-            () -> new Item(new Item.Properties().group(ModItemGroup.MINFAC_TAB)));
 }
