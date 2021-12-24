@@ -27,6 +27,6 @@
     - [ ] Elder Gem
       - [ ] Texture
   - [ ] Crafting
-    - [ ] Gold Ring
-    - [ ] Gem + Ring
+    - [X] Gold Ring /w texture / item
+    - [ ] Gem(s) + Ring(s)
   
